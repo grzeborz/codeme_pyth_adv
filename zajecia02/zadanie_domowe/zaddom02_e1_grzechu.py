@@ -20,16 +20,24 @@ class Deck:
         Function that returns random card
         :return:
         """
+
         dont_touch = []
 
-        n = random.randrange(1,52)
-        dont_touch.append(self._cards[n])
-        self._cards.pop(n)
-        return dont_touch[-1]
+        if len(self._cards) <= 0 or len(self._cards) == None:
+            raise StopIteration
+        else:
+            n = random.randrange(len(self._cards))
+            dont_touch.append(self._cards[n])
+            self._cards.pop(n)
+            return dont_touch[-1]
 
 
 if __name__ == '__main__':
     # tutaj można pisać dowolny kod, nie wpływa to na testy
+    deck = Deck()
+    for card in deck:
+        print(card)
     print(next(Deck()))
+    print(Deck())
 
     pass

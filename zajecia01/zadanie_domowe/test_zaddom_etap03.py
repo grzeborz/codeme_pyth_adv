@@ -1,6 +1,6 @@
 import unittest
 
-from zaddom01 import MyTime
+from zajecia01.zadanie_domowe.zaddom01_grzegorz import MyTime
 
 
 class TestEtap3(unittest.TestCase):

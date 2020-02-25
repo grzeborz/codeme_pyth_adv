@@ -1,5 +1,5 @@
 import unittest
-from zaddom0301_e1 import strip_extensions
+from zaddom0301_e1_grzechu import strip_extensions
 
 
 class Etap1(unittest.TestCase):

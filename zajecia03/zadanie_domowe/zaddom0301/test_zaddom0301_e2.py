@@ -1,5 +1,5 @@
 import unittest
-from zaddom0301_e2 import number_of_digits
+from zaddom0301_e2_grechu import number_of_digits
 
 
 class Etap1(unittest.TestCase):

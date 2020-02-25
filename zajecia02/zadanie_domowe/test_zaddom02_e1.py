@@ -1,6 +1,6 @@
 import unittest
 
-from zaddom02_e1 import Deck
+from zaddom02_e1_grzechu import Deck
 
 
 class Etap1(unittest.TestCase):
