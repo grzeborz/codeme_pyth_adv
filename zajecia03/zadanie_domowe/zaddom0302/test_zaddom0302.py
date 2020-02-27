@@ -1,6 +1,6 @@
 import unittest
 import hashlib
-from zaddom0302 import unique_ip_addresses
+from zaddom0302_grzechu import unique_ip_addresses
 
 
 class Etap1(unittest.TestCase):

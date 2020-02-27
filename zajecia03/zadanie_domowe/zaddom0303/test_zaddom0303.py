@@ -1,6 +1,6 @@
 import unittest
 import types
-from zaddom0303 import counter_generator
+from zaddom0303_grzechu import counter_generator
 
 
 class Etap1(unittest.TestCase):
