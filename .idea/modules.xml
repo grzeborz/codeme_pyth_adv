@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/codeme_pyth_adv_gsz.iml" filepath="$PROJECT_DIR$/.idea/codeme_pyth_adv_gsz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gns_automation/.idea/gns_automation.iml" filepath="$PROJECT_DIR$/../gns_automation/.idea/gns_automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../isa-python12/.idea/isa-python12.iml" filepath="$PROJECT_DIR$/../isa-python12/.idea/isa-python12.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/DataScience/python_edu/python_codeme_adv/python-adv-e4/.idea/python-adv-e4.iml" filepath="$USER_HOME$/Documents/DataScience/python_edu/python_codeme_adv/python-adv-e4/.idea/python-adv-e4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python_infoshare/.idea/python_infoshare.iml" filepath="$PROJECT_DIR$/../python_infoshare/.idea/python_infoshare.iml" />
+    </modules>
+  </component>
+</project>

@@ -25,6 +25,9 @@ class MyTime:
     def __add__(self, other):
         added_minutes = self._minutes + other._minutes
         added_seconds = self._seconds + other._seconds
+        if added_seconds >= 60:
+            added_minutes = added_minutes + 1
+            added_seconds = 0 + (added_seconds - 60)
         return MyTime(added_minutes, added_seconds)
 
     def __repr__(self):
@@ -49,15 +52,15 @@ class MyTime:
             substract_seconds = 60 - substract_seconds
             if substract_minutes < 0:
                 raise ValueError('Expected value > 0')
-            # elif substract_seconds >= 60:
-            #     raise ValueError('Expected value < or = 59')
+            elif substract_seconds >= 60:
+                raise ValueError('Expected value < or = 59')
         return MyTime(substract_minutes, substract_seconds)
 
 if __name__ == '__main__':
     t1 = MyTime(10,40)
     t2 = MyTime(10,10)
     #t3 = MyTime(5,61)
-    t4 = MyTime(0,11)
+    t4 = MyTime(0,21)
     #t5 = MyTime(0, 10)
     # tutaj można pisać dowolny kod, nie wpływa to na testy
     # print(t3 == t2)
